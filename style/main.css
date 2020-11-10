@@ -11,7 +11,8 @@
 
 body {
 	background: var(--preto);                                /*interessante é possível criar variaveis*/
-	font-family: 'Times New Roman', Times, Serif;                           
+	font-family: 'Times New Roman', Times, Serif;
+    color: white;	
 }
 
 header .container {
@@ -37,4 +38,27 @@ header nav a {
 
 header nav a:hover {
 	color: #FFF;
+}
+
+
+/*Filme principal*/
+
+.filme-principal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+	font-size: 16px;
+	background-image: linear-gradient(rgb( 0, 0, 0, .5), rgb(0, 0, 0, .5) 100%),   url('../img/capa-interestelar.jpg');
+	background-size: cover;
+	
+	height: 400px;
+}
+
+.filme-principal .descricao {
+	margin-bottom: 50px;
+}
+.titulo{
+    font-size: 40px;	
 }
